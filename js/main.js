@@ -1,9 +1,24 @@
-document.getElementById("example").innerHTML = "hello world";
 
-document.getElementById("example").style.color = "#f00";
-document.getElementById("example").style.textAlign = "center";
+// var x =document.getElementById("demo");
 
-alert("sayed ")
+// x.innerHTML = "hello from js file";
+// x.style.color ="red";
+// x.style.textAlign = "center";
 
-console.log("akram")
 
+// var x =10;
+// var y =20;
+
+// var z = x+y;
+
+var counter =0;
+
+function increment(){
+    counter++;
+    document.getElementById("lion").innerHTML = counter;
+}
+
+function decrement (){
+    counter--;
+    document.getElementById("lion").innerHTML = counter;
+}
